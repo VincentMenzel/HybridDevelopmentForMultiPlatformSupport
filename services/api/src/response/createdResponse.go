@@ -1,4 +1,4 @@
-package responses
+package response
 
 type CreatedResponse struct {
 	Id int64 `json:"id"`

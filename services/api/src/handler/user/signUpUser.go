@@ -3,7 +3,7 @@ package user
 import (
 	"encoding/json"
 	"github.com/VincentMenzel/HybridDevelopmentForMultiPlatformSupport/tree/development/services/api/src/datastore"
-	"github.com/VincentMenzel/HybridDevelopmentForMultiPlatformSupport/tree/development/services/api/src/responses"
+	"github.com/VincentMenzel/HybridDevelopmentForMultiPlatformSupport/tree/development/services/api/src/response"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/bcrypt"
 	"net/http"
@@ -42,7 +42,7 @@ func CreateUserSignUpHandler(d *datastore.SqlLiteDatastore) func(w http.Response
 			return
 		}
 
-		errorHandler := responses.NewParameterErrorResponse(w)
+		errorHandler := response.NewParameterErrorResponse(w)
 
 		errorHandler.ValidateStringFieldIsNotMissingOrEmpty(credentials.Username, "username")
 		errorHandler.ValidateStringFieldIsNotMissingOrEmpty(credentials.Password, "password")
@@ -61,7 +61,7 @@ func CreateUserSignUpHandler(d *datastore.SqlLiteDatastore) func(w http.Response
 
 		if exists {
 
-			errorHandler.AddError(responses.NewParameterAlreadyInUseError("username"))
+			errorHandler.AddError(response.NewParameterAlreadyInUseError("username"))
 			errorHandler.WriteIfHasError()
 			return
 
@@ -90,7 +90,7 @@ func CreateUserSignUpHandler(d *datastore.SqlLiteDatastore) func(w http.Response
 			w.WriteHeader(http.StatusCreated)
 			logrus.Infof("User created: '%d'", id)
 
-			if err := json.NewEncoder(w).Encode(responses.NewCreatedResponse(id)); err != nil {
+			if err := json.NewEncoder(w).Encode(response.NewCreatedResponse(id)); err != nil {
 				logrus.Error(err)
 				w.WriteHeader(http.StatusInternalServerError)
 

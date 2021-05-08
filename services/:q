@@ -1,0 +1,15 @@
+[0;1;31m●[0m apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; disabled; vendor preset: enabled)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Fri 2021-05-07 23:35:37 CEST; 16h ago
+       Docs: https://httpd.apache.org/docs/2.4/
+
+May 07 23:35:37 vincent apachectl[1513]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May 07 23:35:37 vincent apachectl[1513]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+May 07 23:35:37 vincent apachectl[1513]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+May 07 23:35:37 vincent apachectl[1513]: no listening sockets available, shutting down
+May 07 23:35:37 vincent apachectl[1513]: AH00015: Unable to open logs
+May 07 23:35:37 vincent apachectl[1453]: Action 'start' failed.
+May 07 23:35:37 vincent apachectl[1453]: The Apache error log may have more information.
+May 07 23:35:37 vincent systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+May 07 23:35:37 vincent systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+May 07 23:35:37 vincent systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m

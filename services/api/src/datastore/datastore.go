@@ -10,7 +10,7 @@ type SqlLiteDatastore struct {
 	DB *sql.DB
 }
 
-func NewSqlLiteDatabase() *SqlLiteDatastore {
+func NewSqlLiteDatastore() *SqlLiteDatastore {
 	db, err := sql.Open("sqlite3", "HybridDevelopmentForMultiPlatformSupportData.sqlite")
 	if err != nil {
 		log.Fatal(err)
