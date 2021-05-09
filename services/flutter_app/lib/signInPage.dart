@@ -90,6 +90,7 @@ class _State extends State<SignInPage> {
             autofillHints: [
               AutofillHints.password,
             ],
+            obscureText: true,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
               hintText: "Password",
