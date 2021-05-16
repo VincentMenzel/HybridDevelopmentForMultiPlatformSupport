@@ -1,20 +1,20 @@
-# HybridDevelopmentForMultiPlatformSupport
-Repository für die Projektarbeti 2 "Wie Hybride Entwicklungsansätze Multi Plattform Support vereinfachen" von Vincent Menzel
+# Wie Hybride Entwicklungsansätze Multi Plattform Support vereinfachen
 
-DHBW Heidenheim | code'n'ground AG   
+Repository für die Projektarbeit 2 "Wie Hybride Entwicklungsansätze Multi Plattform Support vereinfachen"
+
+DHBW Heidenheim | code'n'ground AG
 :--------------:|:------------------:
 ![DHBW Logo](https://upload.wikimedia.org/wikipedia/de/1/1d/DHBW-Logo.svg) | ![code'n'ground Logo](https://www.codenground.de/wp/wp-content/uploads/2017/12/Unbenannte-Anlage-00063.png)
 
 <h1 align="center">
-  Wie Hybride Entwicklungsansätze Multi Plattform Support 
-vereinfachen 
-  </h1>
+  Wie Hybride Entwicklungsansätze Multi Plattform Support vereinfachen
+</h1>
 
 
 
 <h2 align="center">Projektarbeit</h2>
 
- 
+
 
 <p align="center">
   des Studiengangs Wirtschaftsinformatik<br/>
@@ -22,7 +22,7 @@ vereinfachen
 </p>
 
 
- 
+
 <p align="center">
   von<br/>
   Vincent Menzel<br/>
@@ -32,12 +32,12 @@ vereinfachen
 
 
 
- 
+
 <p>
-Bearbeitungszeitraum: 11 Wochen  </br>
-Vorgelegt von: Vincent Menzel  </br>
-Matrikelnummer, Kurs: 5855524, WWI19A  </br>
-Ausbildungsfirma: code’n’ground AG  </br>
-Betreuer der Ausbildungsfirma: Matthias Kübler  </br>
+Bearbeitungszeitraum: 11 Wochen </br>
+Vorgelegt von: Vincent Menzel </br>
+Matrikelnummer, Kurs: 5855524, WWI19A </br>
+Ausbildungsfirma: code’n’ground AG </br>
+Betreuer der Ausbildungsfirma: Matthias Kübler </br>
 Gutachter der Dualen Hochschule: Prof. Dr. Andreas Bärwald </br>
 </p>
