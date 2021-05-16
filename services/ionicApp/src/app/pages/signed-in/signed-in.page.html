@@ -1,0 +1,39 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>Willkommen {{user?.username}}</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<ion-grid>
+		<ion-row>
+			<ion-col>
+				<ion-card>
+					<ion-card-header>
+						<ion-card-title>
+							<ion-item>
+
+								<ion-icon slot="start" name="person-circle-outline"></ion-icon>
+								<ion-title>Eingeloggt als</ion-title>
+							</ion-item>
+
+						</ion-card-title>
+					</ion-card-header>
+					<ion-card-content>
+						<ion-list>
+							<ion-row class="ion-justify-content-center">
+								<ion-item>Id: {{user?.id}}</ion-item>
+							</ion-row>
+							<ion-row class="ion-justify-content-center">
+								<ion-item>Username: {{user?.username}}</ion-item>
+							</ion-row>
+							<ion-row class="ion-justify-content-end">
+								<ion-button (click)="onBack($event)">Zurück zum Login</ion-button>
+							</ion-row>
+						</ion-list>
+					</ion-card-content>
+				</ion-card>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>
