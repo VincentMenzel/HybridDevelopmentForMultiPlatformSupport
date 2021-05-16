@@ -108,6 +108,7 @@ class _SignUpPageState extends State<SignUpPage> {
             autofillHints: [
               AutofillHints.newPassword,
             ],
+            obscureText: true,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
               hintText: "Passwort",
@@ -118,6 +119,7 @@ class _SignUpPageState extends State<SignUpPage> {
             autofillHints: [
               AutofillHints.newPassword,
             ],
+            obscureText: true,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
               hintText: "Passwort wiederholen",
