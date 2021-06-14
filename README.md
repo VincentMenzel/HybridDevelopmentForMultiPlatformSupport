@@ -4,7 +4,7 @@ Repository für die Projektarbeit 2 "Wie Hybride Entwicklungsansätze Multi Plat
 
 DHBW Heidenheim | code'n'ground AG
 :--------------:|:------------------:
-![DHBW Logo](https://upload.wikimedia.org/wikipedia/de/1/1d/DHBW-Logo.svg) | ![code'n'ground Logo](https://www.codenground.de/wp/wp-content/uploads/2017/12/Unbenannte-Anlage-00063.png)
+![DHBW Logo](screenshots/logo/dhbw.svg) | ![code'n'ground Logo](screenshots/logo/cng.png)
 
 <h1 align="center">
   Wie Hybride Entwicklungsansätze Multi Plattform Support vereinfachen

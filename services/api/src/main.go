@@ -23,6 +23,7 @@ func main() {
 		//contentType.RequestContentTypeJsonRequired,
 		contentType.SetResponseContentTypeJson,
 	)
+	router.HandleFunc("/users", user.CreateGetUserHandler(store)).Methods(http.MethodGet)
 	router.HandleFunc("/signup", user.CreateUserSignUpHandler(store)).Methods(http.MethodPost)
 	router.HandleFunc("/signIn", user.CreateUserSignInHandler(store)).Methods(http.MethodPost, http.MethodOptions)
 

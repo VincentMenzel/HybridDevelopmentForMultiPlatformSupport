@@ -59,8 +59,6 @@ class _SignUpPageState extends State<SignUpPage> {
     setState(() => isSigningUp = true);
 
     try {
-      // simulate delay that would be present if the api was web based
-      await Future.delayed(Duration(seconds: 1));
 
       var res = await apiSignup(username: username, password: password);
 
